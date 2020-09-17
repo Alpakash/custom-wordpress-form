@@ -13,7 +13,7 @@ I made the form for a friends website, however I am not really happy with how I 
 
 ## :link: See the form in action
 
- [Link to the form](www.simplepictures.nl/aanvragen)
+ [Link to the form](https://www.simplepictures.nl/aanvragen)
 
 ## :computer: Used Technologies
 
