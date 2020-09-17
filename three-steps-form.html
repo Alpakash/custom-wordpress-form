@@ -1,0 +1,527 @@
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
+
+<div class="container">
+  <!-- Stap 1 -->
+  <div class="hr-title" style="display: flex; margin-top: 0;">
+    <div class="hr-step">Stap 1</div>
+    <div class="hr-step-title">Kies een project soort</div>
+  </div>
+  <div class="category-wrapper mb-5">
+    <div class="category" id="step1_particulier" onclick="showStep2First()">
+      Particulier Vastgoed
+    </div>
+    <div class="category" id="stap1_commercieel" onclick="showStep2Second()">
+      Commercieel Vastgoed
+    </div>
+    <div class="category" id="stap1_reclame" onclick="showStep2Third()">
+      Reclame en overig
+    </div>
+  </div>
+
+  <!-- Stap 2 -->
+      <div id="step2-title" class="hr-title">
+      <div class="hr-step">Stap 2</div>
+      <div class="hr-step-title">Kies een pakket</div>
+    </div>
+  <div id="step2" class="d-flex justify-content-center">
+
+    <!-- Step 2, first category -->
+    <div id="first-category-prices">
+      <div class="d-flex">
+        <div
+          class="card bg-light mr-4"
+          style="max-width: 18rem"
+          id="category1_price1"
+        >
+          <div class="card-header">Category 1: price 1</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="price-sum">+</div>
+
+        <div
+          class="card bg-light ml-4 mr-4"
+          style="max-width: 18rem"
+          id="category1_price2"
+        >
+          <div class="card-header">Category 1: price 2</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="price-sum">=</div>
+
+        <div
+          class="card bg-light ml-4"
+          style="max-width: 18rem"
+          id="category1_price3"
+        >
+          <div class="card-header">Category 1: price 3</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Step 2, second category -->
+    <div id="second-category-prices">
+      <div class="d-flex">
+        <div
+          class="card bg-light mr-4"
+          style="max-width: 18rem"
+          id="category2_price1"
+        >
+          <div class="card-header">Category 2: price 1</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="price-sum">+</div>
+
+        <div
+          class="card bg-light ml-4 mr-4"
+          style="max-width: 18rem"
+          id="category2_price2"
+        >
+          <div class="card-header">Category 2: price 2</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+                <div class="price-sum">=</div>
+              
+        <div
+          class="card bg-light ml-4"
+          style="max-width: 18rem"
+          id="category2_price3"
+        >
+          <div class="card-header">Category 2: price 3</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2, third category -->
+    <div id="third-category-prices">
+      <div class="d-flex">
+        <div
+          class="card bg-light mr-4"
+          style="max-width: 18rem"
+          id="category3_price1"
+        >
+          <div class="card-header">Category 3: price 1</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="price-sum">+</div>
+
+        <div
+          class="card bg-light ml-4 mr-4"
+          style="max-width: 18rem"
+          id="category3_price2"
+        >
+          <div class="card-header">Category 3: price 2</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div class="price-sum">=</div>
+
+        <div
+          class="card bg-light ml-4"
+          style="max-width: 18rem"
+          id="category3_price3"
+        >
+          <div class="card-header">Category 3: price 3</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stap 3 -->
+  <div id="step3">
+     <div class="hr-title" style="display: flex;">
+    <div class="hr-step">Stap 3</div>
+    <div class="hr-step-title">Project & Contact Gegevens</div>
+  </div>
+    <form id="form" method="post" action="/" class="form-group mt-5">
+      <label for="name">Opdracht</label>
+      <input
+        class="form-control mb-4"
+        type="text"
+        name="opdracht"
+        id="opdracht"
+        required
+      />
+
+      <label for="name">Name</label>
+      <input
+        class="form-control mb-4"
+        type="text"
+        placeholder="Write your name"
+        name="name"
+        required
+      />
+
+      <label for="email">email</label>
+      <input
+        class="form-control"
+        type="text"
+        placeholder="Write your email"
+        name="email"
+        required
+      />
+
+<input type="hidden" name="submitted"/>
+
+      <br />
+      <button class="btn btn-primary" type="submit">Submit</button>
+
+      <input type="hidden" name="submitted" value="true">
+    </form>
+  </div>
+</div>
+
+<style>
+  .category {
+    border: 3px lightgrey solid;
+    padding: 30px;
+    margin: 0 30px;
+    cursor: pointer;
+  }
+
+  .price-sum {
+    display: flex;
+    font-size: 70px;
+    color: lightgrey;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+  }
+
+  #first-category-prices,
+  #second-category-prices,
+  #third-category-prices {
+    display: none;
+  }
+
+  #step3 {
+    display: none;
+  }
+
+  .category-clicked {
+    border: 3px black solid;
+  }
+
+  .selected-price {
+    border: 3px black solid;
+  }
+
+  .hr-step {
+    position: absolute;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    color: #000;
+  }
+
+  .hr-step-title {
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    padding: 15px;
+    color: #000;
+  }
+
+  .hr-title {
+    display: none;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin: 50px 0 50px 0;
+    font-size: 26px;
+  }
+  .hr-title::before,
+  .hr-title::after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.35);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+  }
+</style>
+
+<script>
+  const step1_particulier = document.getElementById("step1_particulier");
+  const step1_commercieel = document.getElementById("stap1_commercieel");
+  const step1_reclame = document.getElementById("stap1_reclame");
+
+  const step2_title = document.getElementById("step2-title"); 
+
+  const firstCategoryPrices = document.getElementById("first-category-prices");
+  const firstCategoryPrice1 = document.getElementById("category1_price1");
+  const firstCategoryPrice2 = document.getElementById("category1_price2");
+  const firstCategoryPrice3 = document.getElementById("category1_price3");
+
+  const secondCategoryPrices = document.getElementById(
+    "second-category-prices"
+  );
+  const secondCategoryPrice1 = document.getElementById("category2_price1");
+  const secondCategoryPrice2 = document.getElementById("category2_price2");
+  const secondCategoryPrice3 = document.getElementById("category2_price3");
+
+  const thirdCategoryPrices = document.getElementById("third-category-prices");
+  const thirdCategoryPrice1 = document.getElementById("category3_price1");
+  const thirdCategoryPrice2 = document.getElementById("category3_price2");
+  const thirdCategoryPrice3 = document.getElementById("category3_price3");
+
+  const step3Form = document.getElementById("step3");
+  const opdrachtFormInput = document.getElementById("opdracht");
+
+  function showStep2First() {
+    step3Form.style.display = "none";
+    if (firstCategoryPrices.style.display === "none") {
+      secondCategoryPrices.style.display = "none";
+      thirdCategoryPrices.style.display = "none";
+      step1_commercieel.classList.remove("category-clicked");
+      step1_reclame.classList.remove("category-clicked");
+
+      firstCategoryPrice1.classList.remove("selected-price");
+      firstCategoryPrice2.classList.remove("selected-price");
+      firstCategoryPrice3.classList.remove("selected-price");
+      secondCategoryPrice1.classList.remove("selected-price");
+      secondCategoryPrice2.classList.remove("selected-price");
+      secondCategoryPrice3.classList.remove("selected-price");
+      thirdCategoryPrice1.classList.remove("selected-price");
+      thirdCategoryPrice2.classList.remove("selected-price");
+      thirdCategoryPrice3.classList.remove("selected-price");
+
+      step1_particulier.classList.add("category-clicked");
+      firstCategoryPrices.style.display = "block";
+      step2_title.style.display = "flex";
+    } else {
+      firstCategoryPrices.style.display = "none";
+      step2_title.style.display = "none";
+
+      step1_particulier.classList.remove("category-clicked");
+    }
+  }
+
+  function showStep2Second() {
+    step3Form.style.display = "none";
+    if (secondCategoryPrices.style.display === "none") {
+      firstCategoryPrices.style.display = "none";
+      thirdCategoryPrices.style.display = "none";
+      step1_particulier.classList.remove("category-clicked");
+      step1_reclame.classList.remove("category-clicked");
+
+      firstCategoryPrice1.classList.remove("selected-price");
+      firstCategoryPrice2.classList.remove("selected-price");
+      firstCategoryPrice3.classList.remove("selected-price");
+      secondCategoryPrice1.classList.remove("selected-price");
+      secondCategoryPrice2.classList.remove("selected-price");
+      secondCategoryPrice3.classList.remove("selected-price");
+      thirdCategoryPrice1.classList.remove("selected-price");
+      thirdCategoryPrice2.classList.remove("selected-price");
+      thirdCategoryPrice3.classList.remove("selected-price");
+
+      secondCategoryPrices.style.display = "block";
+      step1_commercieel.classList.add("category-clicked");
+      step2_title.style.display = "flex";
+
+    } else {
+      secondCategoryPrices.style.display = "none";
+      step2_title.style.display = "none";
+
+      step1_commercieel.classList.remove("category-clicked");
+    }
+  }
+
+  function showStep2Third() {
+    step3Form.style.display = "none";
+    if (thirdCategoryPrices.style.display === "none") {
+      firstCategoryPrices.style.display = "none";
+      secondCategoryPrices.style.display = "none";
+
+      firstCategoryPrice1.classList.remove("selected-price");
+      firstCategoryPrice2.classList.remove("selected-price");
+      firstCategoryPrice3.classList.remove("selected-price");
+      secondCategoryPrice1.classList.remove("selected-price");
+      secondCategoryPrice2.classList.remove("selected-price");
+      secondCategoryPrice3.classList.remove("selected-price");
+      thirdCategoryPrice1.classList.remove("selected-price");
+      thirdCategoryPrice2.classList.remove("selected-price");
+      thirdCategoryPrice3.classList.remove("selected-price");
+
+      step1_particulier.classList.remove("category-clicked");
+      step1_commercieel.classList.remove("category-clicked");
+
+      step1_reclame.classList.add("category-clicked");
+      step2_title.style.display = "flex";
+      thirdCategoryPrices.style.display = "block";
+    } else {
+      thirdCategoryPrices.style.display = "none";
+      step2_title.style.display = "none";
+
+      step1_reclame.classList.remove("category-clicked");
+    }
+  }
+
+  // First category prices
+  firstCategoryPrice1.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category1_Prijs1");
+    firstCategoryPrice1.classList.add("selected-price");
+    firstCategoryPrice2.classList.remove("selected-price");
+    firstCategoryPrice3.classList.remove("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  firstCategoryPrice2.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category1_Prijs2");
+    firstCategoryPrice1.classList.remove("selected-price");
+    firstCategoryPrice2.classList.add("selected-price");
+    firstCategoryPrice3.classList.remove("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  firstCategoryPrice3.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category2_Prijs3");
+    firstCategoryPrice1.classList.remove("selected-price");
+    firstCategoryPrice2.classList.remove("selected-price");
+    firstCategoryPrice3.classList.add("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  // Second category prices
+  secondCategoryPrice1.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category2_Prijs1");
+    secondCategoryPrice1.classList.add("selected-price");
+    secondCategoryPrice2.classList.remove("selected-price");
+    secondCategoryPrice3.classList.remove("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  secondCategoryPrice2.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category2_Prijs2");
+    secondCategoryPrice1.classList.remove("selected-price");
+    secondCategoryPrice2.classList.add("selected-price");
+    secondCategoryPrice3.classList.remove("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  secondCategoryPrice3.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category2_Prijs3");
+    secondCategoryPrice1.classList.remove("selected-price");
+    secondCategoryPrice2.classList.remove("selected-price");
+    secondCategoryPrice3.classList.add("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  // Third category prices
+  thirdCategoryPrice1.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category3_Prijs1");
+    thirdCategoryPrice1.classList.add("selected-price");
+    thirdCategoryPrice2.classList.remove("selected-price");
+    thirdCategoryPrice3.classList.remove("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  thirdCategoryPrice2.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category3_Prijs2");
+    thirdCategoryPrice1.classList.remove("selected-price");
+    thirdCategoryPrice2.classList.add("selected-price");
+    thirdCategoryPrice3.classList.remove("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  thirdCategoryPrice3.addEventListener("click", () => {
+    opdrachtFormInput.setAttribute("value", "Category3_Prijs3");
+    thirdCategoryPrice1.classList.remove("selected-price");
+    thirdCategoryPrice2.classList.remove("selected-price");
+    thirdCategoryPrice3.classList.add("selected-price");
+    step3Form.style.display = "block";
+  });
+
+  /*
+1.  Direct aanvragen
+  - 3 stappen formulier -> 
+  1. 4 blokken
+  2. als gelikt 3 blokken met prijzen
+	3. formulier
+
+2. portfolio
+	- Filter knop, zelfde kleur als header en footer kleur (dark theme)
+
+
+In stap 1 moeten de children een specifieke id krijgen 
+step1_particulier_vastgoed, stap1_commercieel_vastgoed, stap1_reclame-overig
+
+// op basis van de id, moeten er 3 prijzen worden ingeladen
+// prijzen krijgen allen ook een eigen value
+
+// die worden in stap 3 doorgegeven in het formulier
+
+dan moet de volgende stap geshowed worden
+*/
+
+  // select id step1, hoofdcategorien
+  // select id step2, prijzen
+  // select id step3, formulier
+</script>
