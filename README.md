@@ -19,7 +19,8 @@ I made the form for a friends website, however I am not really happy with how I 
 
 - JavaScript
 - PHP
-- WordPress
+- WordPress 5.5.2
+- Bootstrap 4.3.1
 
 
 ## :heavy_check_mark: To-do ##
@@ -28,3 +29,13 @@ Once again I know the code is not written really efficient. The idea is for exam
 
 1. Finish the form (need to add some more inputs in the form)
 2. Refactor code
+
+## Website Result (not finished yet)##
+
+![](./aanvragen.png)
+
+## Design ##
+
+![](./page2.png)
+
+
