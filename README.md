@@ -30,12 +30,12 @@ Once again I know the code is not written really efficient. The idea is for exam
 1. Finish the form (need to add some more inputs in the form)
 2. Refactor code
 
-## Website Result (not finished yet)##
+## Website Result (not finished yet) ##
 
-![](./aanvragen.png)
+![](./Aanvragen.png)
 
 ## Design ##
 
-![](./page2.png)
+![](./Page2.png)
 
 
